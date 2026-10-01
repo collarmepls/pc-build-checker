@@ -1,0 +1,55 @@
+{
+  "processor": {
+    "name": "AMD Ryzen 7 7800X3D",
+    "socket": "AM5",
+    "thermal_design_power": 120,
+    "power_draw": 120
+  },
+  "motherboard": {
+    "name": "MSI MAG B650 Tomahawk WiFi",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "memory_type": "DDR5",
+    "memory_slots": 4,
+    "max_memory_gb": 192,
+    "m2_slots": 3,
+    "power_draw": 40
+  },
+  "memory": {
+    "name": "G.Skill Flare X5 32GB",
+    "memory_type": "DDR5",
+    "module_count": 2,
+    "module_size_gb": 16,
+    "power_draw": 10
+  },
+  "graphics_card": {
+    "name": "NVIDIA GeForce RTX 4070 Super",
+    "length_mm": 267,
+    "power_draw": 220
+  },
+  "power_supply": {
+    "name": "Corsair RM750e",
+    "wattage": 750
+  },
+  "case": {
+    "name": "NZXT H5 Flow",
+    "supported_form_factors": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "max_gpu_length_mm": 365,
+    "max_cooler_height_mm": 165,
+    "power_draw": 10
+  },
+  "cooler": {
+    "name": "Thermalright Peerless Assassin 120 SE",
+    "height_mm": 155,
+    "rated_tdp": 245,
+    "supported_sockets": ["AM4", "AM5", "LGA1700"],
+    "power_draw": 5
+  },
+  "storage": [
+    {
+      "name": "Samsung 990 Pro 2TB",
+      "interface": "m2",
+      "power_draw": 8
+    }
+  ]
+}
